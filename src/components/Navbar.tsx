@@ -1,6 +1,6 @@
 import React from "react";
 
-const Navbar = (props) => {
+const Navbar = () => {
   return (
     <div>
       <div className="flex justify-end p-4">

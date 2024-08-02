@@ -10,9 +10,11 @@ export default async function Home() {
   console.log(getWeather);
   return (
     <div>
-      <Navbar />
       <div>
-        <WeatherCard />
+        <Navbar />
+      </div>
+      <div className="p-8">
+        <WeatherCard weatherData={weather} />
       </div>
     </div>
   );
